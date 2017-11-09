@@ -7,6 +7,8 @@ build:
   ci:
     - echo "inside ci"
     - docker push scriptnull/sample_node:pyt.$BUILD_NUMBER
+    - printenv
+    - ls /build/IN/ci-params
     
 integrations:                               
   hub:
