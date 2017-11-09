@@ -1,5 +1,5 @@
 language: none
 
-script:
-  - echo "hello"
-  - exit 1
+build:
+  ci:
+    - echo "inside ci"
