@@ -2,4 +2,4 @@ language: none
 
 script:
   - echo "hello"
-  - cat /build/common.env
+  - exit 1
