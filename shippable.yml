@@ -6,3 +6,4 @@ build:
     - printenv
     - ls /build/IN/ci-params
     - ls /build/IN/ci-gitRepo
+    - ls /build/IN/ci-gitRepo/gitRepo
