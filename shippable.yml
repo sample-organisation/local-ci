@@ -6,3 +6,8 @@ build:
     - echo "inside pre_ci"
   ci:
     - echo "inside ci"
+    
+integrations:                               
+  hub:
+    - integrationName: scriptnull-docker    #replace with your integration name   
+      type: dockerRegistryLogin    
