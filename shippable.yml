@@ -6,6 +6,7 @@ build:
     - echo "inside pre_ci"
   ci:
     - echo "inside ci"
+    - docker push scriptnull/sample_node:pyt.$BUILD_NUMBER
     
 integrations:                               
   hub:
