@@ -1,5 +1,7 @@
 language: none
 
 build:
+  pre_ci:
+    - echo "inside pre_ci"
   ci:
     - echo "inside ci"
