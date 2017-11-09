@@ -5,3 +5,4 @@ build:
     - echo "inside ci"
     - printenv
     - ls /build/IN/ci-params
+    - ls /build/IN/ci-gitRepo
